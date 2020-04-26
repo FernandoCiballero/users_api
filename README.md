@@ -20,10 +20,9 @@ curl -d '{"name":"John Doe","email":"johndoe@email.com"}' -H 'Content-Type: appl
 
 curl -X POST --data "user[name]=John Doe" --data "user[email]=johndoe@email.com" http://localhost:3000/api/v1/users
 
-
 # PUT /users/:id
 
- curl -d '{"name":"Bruce Willis"}' -H 'Content-Type: application/json' -X PUT http://localhost:3000/api/v1/users/27
+curl -d '{"name":"Bruce Willis"}' -H 'Content-Type: application/json' -X PUT http://localhost:3000/api/v1/users/27
 
 # DELETE /users/:id
 
@@ -35,6 +34,6 @@ curl -X DELETE http://localhost:3000/api/v1/users/27
 
 _These are the gems added to the project_
 
-*[Faker](https://github.com/faker-ruby/faker) 
-*[Fast Jsonapi](https://github.com/Netflix/fast_jsonapi)
+* [Faker](https://github.com/faker-ruby/faker) 
+* [Fast Jsonapi](https://github.com/Netflix/fast_jsonapi)
 
