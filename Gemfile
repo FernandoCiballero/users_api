@@ -20,6 +20,7 @@ gem 'puma', '~> 4.1'
 # gem 'image_processing', '~> 1.2'
 
 gem 'faker', '~> 2.11'
+gem 'fast_jsonapi', '~> 1.5'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
